@@ -11,9 +11,10 @@
 </p>
 > 💡 **Project at a glance:** A structured manual QA project covering the OpenCart frontend from **requirements → test scenarios → test cases → execution → defects → re-testing → regression → closure**.
 ---
-📌 Quick Navigation
-🎯 Objectives
-📊 Project Snapshot
+
+📌 Quick Navigation  
+🎯 Objectives  
+📊 Project Snap shot  
 🛍️ Application Overview
 🔍 Scope of Testing
 🧪 Test Scenarios
