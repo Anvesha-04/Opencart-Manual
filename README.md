@@ -155,22 +155,6 @@ The FRS also describes successful order placement and access to order
 history.
 
 ---
-🧪 Test Scenarios  
-The Test Scenario document contains eight primary scenarios:
-
-Scenario ID   Scenario                                  Priority   Test Cases
-
----
-TS_001        Verify Register Account functionality           P0           23
-TS_002        Verify Login functionality                      P0           21
-TS_003        Verify Logout functionality                     P0           11
-TS_004        Verify Home Page Functionality                  P2            9
-TS_005        Verify Checkout functionality                   P1           20
-TS_006        Verify Search functionality                     P1           18
-TS_007        Verify Add to Cart functionality                P1            9
-TS_008        Verify My Account functionality                 P2            8
-These scenarios are referenced by the test cases and linked back to the
-FRS through the testing documentation.
 
 ---
 
@@ -194,21 +178,6 @@ Microsoft Edge
 Google Chrome  
 Mozilla Firefox  
 Safari  
-
----
-
-🧰 Testing Tools
-
-Activity                   Tool  
-
----  
-Test Case Creation         Microsoft Excel  
-Test Case Tracking         Microsoft Excel  
-Test Case Execution        Manual  
-Test Case Management       Microsoft Excel  
-Defect Management          Microsoft Excel  
-Test Reporting             Microsoft Excel & Jira  
-Configuration Management   GitHub 
 
 ---
 ---
