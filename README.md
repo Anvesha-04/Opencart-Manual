@@ -171,176 +171,41 @@ TS_008        Verify My Account functionality                 P2            8
 These scenarios are referenced by the test cases and linked back to the
 FRS through the testing documentation.
 ---
-📝 Test Case Design
-The test case workbook contains structured test cases with fields such
-as:
-Test Case ID
-Test Scenario
-Test Case Title
-Preconditions
-Test Steps
-Test Data
-Expected Result
-Actual Result
-Priority
-Result
-Examples of covered validations include:
-Navigation between OpenCart pages.
-Home page and featured product behavior.
-Search with existing and non-existing product names.
-Search using product description text.
-Adding products to the cart from different application locations.
-Checkout navigation and signed-in checkout.
-My Account navigation and login behavior.
-Test cases use OpenCart sample products such as Canon EOS 5D,
-iMac, Mac, and Apple Cinema 30" where applicable.
----
-⚙️ Test Methodology
-The Test Plan specifies an Agile approach with weekly iterations.
-Testing activities follow the requirements and testing strategy
-documented in the Test Plan.
-🧪 Testing Levels and Types
-The project includes:
-Functional Testing
-Integration Testing
-Performance Testing
-Cross-browser Testing
-Security Testing for payment-related behavior
-User Acceptance Testing (UAT)
-Regression Testing
-Progress Testing
-Fixed-defect validation
-🔄 Test Execution Flow
-Review and understand requirements.
-Prepare test scenarios and test cases.
-Review test cases and test coverage.
-Prepare test data.
-Execute test cases manually.
-Record actual results and Pass/Fail status.
-Log defects for failed validations.
-Re-test fixed defects.
-Perform regression testing where required.
-Prepare testing reports and deliverables.
----
-🚦 Entry Criteria
-Testing can begin when the documented entry conditions are satisfied,
-including:
-Requirements and FRS are understood.
-QA resources have sufficient knowledge of the functionality.
-Test Plan, Test Scenarios, and Test Cases are approved.
-Required documentation and design information are available.
-Unit test cases pass.
-Application smoke testing is completed where applicable.
----
-🏁 Exit Criteria
-The Test Plan defines exit conditions including:
-Planned test case execution is completed.
-Required test coverage is achieved.
-Relevant Severity 1 and Severity 2 defects are completed.
-No high-priority defect remains outstanding.
-UAT test evidence is collected.
-Test Closure documentation is completed and signed off.
----
-🐞 Defect Management
-Defects are documented in the Bug Report with information including:
-Bug ID
-Description / Summary
-Steps to Reproduce
-Expected Result
-Actual Result
-Severity
-Priority
-Screenshot
-Examples of defects recorded in the project include:
-Leading and trailing spaces being accepted in registration fields.
-Unexpected logout behavior when using browser navigation.
-Missing warning after repeated unsuccessful login attempts.
-Password visibility in page source.
-Old password remaining usable after a password change.
-Registration confirmation email not being received.
-Weak passwords being accepted.
-Search by product description not working.
-The bug report contains both functional and security-related
-observations, with severity and priority assigned to support defect
-handling.
----
-🔗 Requirement Traceability Matrix
-The RTM maps requirements to:
-Requirement → Test Scenario → Test Case → Test Result → Defect
-The RTM includes requirement descriptions, scenario IDs, test case IDs,
-test results, defect IDs, and defect status fields.
-This provides traceability between the original FRS requirements and
-their corresponding validation activities.
----
-📦 Test Deliverables
-📋 Before Testing
-Functional Requirement Specification (FRS)
-Test Plan
-Test Scenarios
-Test Cases
-Test Design Specifications
-🔬 During Testing
-Test Data
-Requirement Traceability Matrix (RTM)
-Test Execution Results
-Error / Execution Logs
-📊 After Testing
-Test Results / Reports
-Defect Report
-Installation / Test Procedure Guidelines
-Release Notes
----
+
 🖥️ Test Environment
-The Test Plan documents the following environment information:
-Operating Environment
-Windows 10
-4 GB RAM
-3.4 GHz CPU
-LAN with at least 5 Mb/s speed
-Application / Server Requirements
-The FRS identifies:
-PHP 5.4
-JavaScript
-MySQL database
-Apache web server
-Supported Browsers
-The documented browser support includes:
-Microsoft Edge
-Google Chrome
-Mozilla Firefox
-Safari
+
+The Test Plan documents the following environment information:  
+Operating Environment  
+Windows 10  
+4 GB RAM  
+3.4 GHz CPU  
+LAN with at least 5 Mb/s speed  
+Application / Server Requirements  
+The FRS identifies:  
+PHP 5.4  
+JavaScript  
+MySQL database  
+Apache web server  
+Supported Browsers  
+The documented browser support includes:  
+Microsoft Edge  
+Google Chrome  
+Mozilla Firefox  
+Safari  
 ---
+
 🧰 Testing Tools
-Activity                   Tool
+
+Activity                   Tool  
+---  
+Test Case Creation         Microsoft Excel  
+Test Case Tracking         Microsoft Excel  
+Test Case Execution        Manual  
+Test Case Management       Microsoft Excel  
+Defect Management          Microsoft Excel  
+Test Reporting             Microsoft Excel & Jira  
+Configuration Management   GitHub  
 ---
-Test Case Creation         Microsoft Excel
-Test Case Tracking         Microsoft Excel
-Test Case Execution        Manual
-Test Case Management       Microsoft Excel
-Defect Management          Microsoft Excel
-Test Reporting             Microsoft Excel & Jira
-Configuration Management   GitHub
----
-📅 Test Schedule
-The documented test schedule includes activities such as:
-FRS
-Test Planning
-Review Requirements Documents
-Create Test Basis
-Staff and Train New Test Resources
-First Deploy to QA Test Environment
-Functional Testing -- Iteration 1
-Iteration 2 Deploy to QA Test Environment
-Functional Testing -- Iteration 2
-System Testing
-Regression Testing
-UAT
-Final Defect Resolution and Build Testing
-Deployment to Staging Environment
-Performance Testing
-Release to Production
-The schedule assigns the documented activities to Anvesha where an
-owner is specified.
 ---
 📂 Project Documents
 This project is supported by the following QA artifacts:
@@ -397,26 +262,28 @@ Manual Test Execution
 ```
 ---
 💼 Key QA Skills Demonstrated
-This project demonstrates practical experience in:
-Manual Testing
-Functional Testing
-Integration Testing
-Regression Testing
-UAT
-Test Scenario Design
-Test Case Design
-Test Case Execution
-Test Data Preparation
-Requirement Analysis
-Requirement Traceability
-Defect Identification
-Defect Reporting
-Severity and Priority Classification
-Re-testing
-Cross-browser Testing
-Test Reporting
-Agile Testing
-QA Documentation
+
+This project demonstrates practical experience in:  
+Manual Testing  
+Functional Testing  
+Integration Testing  
+Regression Testing  
+UAT  
+Test Scenario Design  
+Test Case Design  
+Test Case Execution  
+Test Data Preparation  
+Requirement Analysis  
+Requirement Traceability  
+Defect Identification  
+Defect Reporting  
+Severity and Priority Classification  
+Re-testing  
+Cross-browser Testing  
+Test Reporting  
+Agile Testing  
+QA Documentation  
+
 ---
 
 🏆 Project Outcome  
@@ -428,10 +295,12 @@ lifecycle.
 
 ---
 👤 Author  
-Anvesha  
+
+Anvesha    
 Project: OpenCart-Manual    
 Role: QA / Manual Testing    
-Testing Approach: Manual Testing  
+Testing Approach: Manual Testing
+
 ---
 
 🌟 Project Highlights
