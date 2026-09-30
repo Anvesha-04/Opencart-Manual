@@ -170,6 +170,7 @@ TS_007        Verify Add to Cart functionality                P1            9
 TS_008        Verify My Account functionality                 P2            8
 These scenarios are referenced by the test cases and linked back to the
 FRS through the testing documentation.
+
 ---
 
 🖥️ Test Environment
@@ -192,6 +193,7 @@ Microsoft Edge
 Google Chrome  
 Mozilla Firefox  
 Safari  
+
 ---
 
 🧰 Testing Tools
@@ -204,7 +206,8 @@ Test Case Execution        Manual
 Test Case Management       Microsoft Excel  
 Defect Management          Microsoft Excel  
 Test Reporting             Microsoft Excel & Jira  
-Configuration Management   GitHub  
+Configuration Management   GitHub 
+
 ---
 ---
 📂 Project Documents
