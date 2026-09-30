@@ -68,16 +68,13 @@ manage their account, and complete checkout.
 The FRS describes the storefront architecture and customer workflows,
 including:
 
-Home page  
-Header and navigation  
-Product pages  
-Category product listings  
-Product comparison  
-Shopping cart  
-Account registration and login  
-Checkout  
-Order confirmation  
-Order history  
+•Home page  
+•Header and navigation  
+•Product pages    
+•Shopping cart  
+•Account registration and login  
+•Checkout  
+•Order history  
 
 ---
 
@@ -85,22 +82,22 @@ Order history
 
 ✅ In Scope  
 The Test Plan identifies the following major areas for testing:  
-Register Account  
-Login and Logout  
-Home Page  
-Search  
-Add to Cart  
-Wish List  
-Shopping Cart  
-Checkout  
-My Account  
-Cross-browser behavior  
-Functional testing  
-Integration testing  
-Performance testing  
-Regression testing  
-UAT from the tester's perspective  
-Fixed-defect validation  
+•Register Account  
+•Login and Logout  
+•Home Page  
+•Search  
+•Add to Cart  
+•Wish List  
+•Shopping Cart  
+•Checkout  
+•My Account  
+•Cross-browser behavior  
+•Functional testing  
+•Integration testing  
+•Performance testing  
+•Regression testing  
+•UAT from the tester's perspective  
+•Fixed-defect validation  
 
 The Test Plan also identifies specific storefront behaviors such as
 navigation, product display, category browsing, search, cart operations,
@@ -109,10 +106,12 @@ and checkout flows.
 🚫 Out of Scope
 
 The Test Plan lists the following as out of scope:  
-Database Testing  
-API Testing  
-Automation Testing  
-Features added later  
+
+•Database Testing  
+•API Testing  
+•Automation Testing  
+•Features added later  
+
 ---
 🏗️ Requirements and Information Architecture  
 The FRS defines the OpenCart storefront and its main customer
@@ -161,23 +160,25 @@ history.
 🖥️ Test Environment
 
 The Test Plan documents the following environment information:  
-Operating Environment  
-Windows 10  
-4 GB RAM  
-3.4 GHz CPU  
-LAN with at least 5 Mb/s speed  
-Application / Server Requirements  
+•Operating Environment  
+•Windows 10  
+•4 GB RAM  
+•3.4 GHz CPU  
+•LAN with at least 5 Mb/s speed  
+•Application / Server Requirements  
+
 The FRS identifies:  
-PHP 5.4  
-JavaScript  
-MySQL database  
-Apache web server  
-Supported Browsers  
+•PHP 5.4  
+•JavaScript  
+•MySQL database  
+•Apache web server  
+•Supported Browsers  
+
 The documented browser support includes:  
-Microsoft Edge  
-Google Chrome  
-Mozilla Firefox  
-Safari  
+•Microsoft Edge  
+•Google Chrome  
+•Mozilla Firefox  
+•Safari  
 
 ---
 ---
@@ -238,25 +239,25 @@ Manual Test Execution
 💼 Key QA Skills Demonstrated
 
 This project demonstrates practical experience in:  
-Manual Testing  
-Functional Testing  
-Integration Testing  
-Regression Testing  
-UAT  
-Test Scenario Design  
-Test Case Design  
-Test Case Execution  
-Test Data Preparation  
-Requirement Analysis  
-Requirement Traceability  
-Defect Identification  
-Defect Reporting  
-Severity and Priority Classification  
-Re-testing  
-Cross-browser Testing  
-Test Reporting  
-Agile Testing  
-QA Documentation  
+•Manual Testing  
+•Functional Testing  
+•Integration Testing  
+•Regression Testing  
+•UAT  
+•Test Scenario Design  
+•Test Case Design  
+•Test Case Execution  
+•Test Data Preparation  
+•Requirement Analysis  
+•Requirement Traceability  
+•Defect Identification  
+•Defect Reporting  
+•Severity and Priority Classification  
+•Re-testing  
+•Cross-browser Testing  
+•Test Reporting  
+•Agile Testing  
+•QA Documentation  
 
 ---
 
