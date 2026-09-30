@@ -15,152 +15,149 @@
 📌 Quick Navigation  
 🎯 Objectives  
 📊 Project Snap shot  
-🛍️ Application Overview
-🔍 Scope of Testing
-🧪 Test Scenarios
-📝 Test Case Design
-⚙️ Test Methodology
-🐞 Defect Management
-🔗 Requirement Traceability
-🖥️ Test Environment
-🧰 Testing Tools
-📂 Project Documents
-🔄 QA Workflow
-💼 Key QA Skills
+🛍️ Application Overview  
+🔍 Scope of Testing  
+🧪 Test Scenarios  
+📝 Test Case Design  
+⚙️ Test Methodology  
+🐞 Defect Management  
+🔗 Requirement Traceability  
+🖥️ Test Environment  
+🧰 Testing Tools  
+📂 Project Documents  
+🔄 QA Workflow  
+💼 Key QA Skills  
+
 ---
 🎯 Objectives
-The main objectives of this project are to:
-Validate the functional requirements of the OpenCart frontend.
-Verify important customer-facing e-commerce workflows.
-Design and execute manual test cases against the documented
-requirements.
-Identify, document, and prioritize defects.
+
+The main objectives of this project are to:  
+Validate the functional requirements of the OpenCart frontend.  
+Verify important customer-facing e-commerce workflows.  
+Design and execute manual test cases against the documen0ted
+requirements.  
+Identify, document, and prioritize defects.  
 Maintain traceability between requirements, scenarios, test cases,
-and defects.
-Validate functional behavior across supported browsers.
-Perform regression and re-testing activities for identified defects.
-Provide structured QA deliverables for the testing lifecycle.
+and defects.  
+Validate functional behavior across supported browsers.  
+Perform regression and re-testing activities for identified defects.  
+Provide structured QA deliverables for the testing lifecycle.  
+
 ---
 ---
+
 📊 Project Snapshot
-📌 Area	📈 Coverage
-🧪 Testing Approach	Manual Testing
-🔄 Methodology	Agile / Weekly Iterations
-🗂️ Test Scenarios	8 documented scenarios
-📝 Test Cases	Scenario-based manual test coverage
-🐞 Defect Tracking	Bug Report with severity & priority
-🔗 Traceability	FRS → Scenario → Test Case → Result → Defect
-🖥️ Browser Coverage	Edge, Chrome, Firefox, Safari
-👤 Prepared By	Anvesha
+
+📌 Area	📈 Coverage  
+🧪 Testing Approach	Manual Testing  
+🔄 Methodology	Agile / Weekly Iterations  
+🗂️ Test Scenarios	8 documented scenarios  
+📝 Test Cases	Scenario-based manual test coverage  
+🐞 Defect Tracking	Bug Report with severity & priority    
+🔗 Traceability	FRS → Scenario → Test Case → Result → Defect  
+🖥️ Browser Coverage	Edge, Chrome, Firefox, Safari  
+👤 Prepared By	Anvesha  
+
 🛍️ Application Overview
+
 OpenCart is an open-source e-commerce platform for online merchants. The
 application provides a storefront through which customers can browse
 products, search for products, compare products, add products to a cart,
 manage their account, and complete checkout.
+
 The FRS describes the storefront architecture and customer workflows,
 including:
-Home page
-Header and navigation
-Product pages
-Category product listings
-Product comparison
-Shopping cart
-Account registration and login
-Checkout
-Order confirmation
-Order history
+
+Home page  
+Header and navigation  
+Product pages  
+Category product listings  
+Product comparison  
+Shopping cart  
+Account registration and login  
+Checkout  
+Order confirmation  
+Order history  
+
 ---
+
 🔍 Scope of Testing
-✅ In Scope
-The Test Plan identifies the following major areas for testing:
-Register Account
-Login and Logout
-Home Page
-Search
-Product Compare
-Product Detail Page
-Add to Cart
-Wish List
-Shopping Cart
-Currency selection
-Checkout
-My Account
-Order History
-Cross-browser behavior
-Functional testing
-Integration testing
-Performance testing
-Regression testing
-UAT from the tester's perspective
-Fixed-defect validation
+
+✅ In Scope  
+The Test Plan identifies the following major areas for testing:  
+Register Account  
+Login and Logout  
+Home Page  
+Search  
+Add to Cart  
+Wish List  
+Shopping Cart  
+Checkout  
+My Account  
+Cross-browser behavior  
+Functional testing  
+Integration testing  
+Performance testing  
+Regression testing  
+UAT from the tester's perspective  
+Fixed-defect validation  
+
 The Test Plan also identifies specific storefront behaviors such as
 navigation, product display, category browsing, search, cart operations,
-and checkout flows.
+and checkout flows.  
+
 🚫 Out of Scope
-The Test Plan lists the following as out of scope:
-Database Testing
-API Testing
-Automation Testing
-Features added later
+
+The Test Plan lists the following as out of scope:  
+Database Testing  
+API Testing  
+Automation Testing  
+Features added later  
 ---
-🏗️ Requirements and Information Architecture
+🏗️ Requirements and Information Architecture  
 The FRS defines the OpenCart storefront and its main customer
-interaction areas.
-🏠 Home Page
+interaction areas.  
+🏠 Home Page  
 Testing includes navigation to the home page, featured products, partner
-carousel behavior, header links, and navigation elements.
-📦 Product Page
-The product page includes:
-Product image and alternate views
-Product details
-Product code and availability
-Price
-Quantity selection
-Add to Cart
-Wish List
-Product Compare
-Rating and sharing
-Description
-Review tab
-🗂️ Category Product Listing
-Category pages allow users to:
-Browse products within categories and subcategories.
-Refine searches.
-Switch between list and grid views.
-Sort products by name, price, rating, or model.
-Change the number of displayed products.
-Add products to the cart.
-Add products to the wish list.
-Add products to comparison.
-⚖️ Product Compare
-The Product Compare functionality allows customers to compare product
-specifications, features, and prices.
-🛒 Shopping Cart
-The shopping cart validates product information including:
-Product image
-Product name
-Model
-Quantity
-Unit price
-Total
+carousel behavior, header links, and navigation elements.  
+📦 Product Page  
+The product page includes:  
+Product image and alternate views  
+Product details  
+Product code and availability  
+Price  
+Quantity selection  
+Add to Cart  
+Wish List  
+Product Compare  
+Rating and sharing  
+Description  
+Review tab  
+🛒 Shopping Cart  
+The shopping cart validates product information including:  
+Product image  
+Product name  
+Model  
+Quantity  
+Unit price   
+Total  
 The cart also provides options for coupons, gift vouchers, shipping and
-tax estimation, continuing shopping, and checkout.
-👤 Account Management
-The project covers registration, login, logout, account navigation,
-password-related behavior, and account-related pages.
-💳 Checkout
-The documented checkout process contains six steps:
-Checkout options
-Billing details
-Delivery details
-Delivery method
-Payment method
-Confirm order
+tax estimation, continuing shopping, and checkout.  
+💳 Checkout  
+The documented checkout process contains six steps:  
+Checkout options  
+Billing details  
+Delivery details  
+Delivery method   
+Payment method  
+Confirm order  
 The FRS also describes successful order placement and access to order
 history.
+
 ---
-🧪 Test Scenarios
+🧪 Test Scenarios  
 The Test Scenario document contains eight primary scenarios:
+
 Scenario ID   Scenario                                  Priority   Test Cases
 ---
 TS_001        Verify Register Account functionality           P0           23
@@ -348,15 +345,16 @@ owner is specified.
 📂 Project Documents
 This project is supported by the following QA artifacts:
 ``` text
-OpenCart-Manual/
-│
-├── FRS_1(1).pdf
-├── Test_plan_1(1).pdf
-├── test_scenario_1(1).xlsx
-├── test_cases_all(1).xlsx
-├── RTM_1(1).xlsx
-├── Bug_Report_1(1).xlsx
+OpenCart-Manual/  
+│  
+├── FRS_1(1).pdf  
+├── Test_plan_1(1).pdf  
+├── test_scenario_1(1).xlsx  
+├── test_cases_all(1).xlsx  
+├── RTM_1(1).xlsx  
+├── Bug_Report_1(1).xlsx  
 └── README.md
+
 ```
 ---
 🔄 QA Workflow
@@ -420,19 +418,22 @@ Test Reporting
 Agile Testing
 QA Documentation
 ---
-🏆 Project Outcome
+
+🏆 Project Outcome  
 The OpenCart-Manual project provides a structured manual QA process from
 requirement analysis through test closure. The project connects the FRS
 with test scenarios, detailed test cases, execution results, defect
 reports, and the RTM, providing traceability across the testing
-lifecycle.
+lifecycle.  
+
 ---
-👤 Author
-Anvesha
-Project: OpenCart-Manual  
-Role: QA / Manual Testing  
-Testing Approach: Manual Testing
+👤 Author  
+Anvesha  
+Project: OpenCart-Manual    
+Role: QA / Manual Testing    
+Testing Approach: Manual Testing  
 ---
+
 🌟 Project Highlights
 > **OpenCart-Manual** demonstrates an end-to-end manual QA workflow with structured documentation and traceability.
 Core QA flow:  
